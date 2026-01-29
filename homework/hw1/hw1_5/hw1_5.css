@@ -1,0 +1,14 @@
+img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+p{
+    font-size: 30px;
+}
+h{
+    font-size: 45px;
+}
+body{
+    background-color: rgba(60, 71, 135, 0.76);
+}
