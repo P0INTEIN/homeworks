@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+section{
+    height: 60vh;
+}
+#section-one{
+    background-color: pink;
+}
+#section-two{
+    background-color: dimgray;
+}
+p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 50px;
+    font-size: 26px;
+}
+h1{
+    font-size: 40px;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 50px;
+    font-size: 26px;
+    color: white;
+}
+h2{
+    font-size: 40px;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
