@@ -1,0 +1,15 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin: 100px auto 0 auto;
+    animation: lorem 5s linear infinite alternate;
+}
+@keyframes lorem {
+    0%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: scale(1) rotate(0deg);
+        background-color: black;
+    }

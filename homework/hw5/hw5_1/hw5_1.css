@@ -1,0 +1,19 @@
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-top: 25px solid red;
+    border-right: 25px solid green;
+    border-bottom: 25px solid palegoldenrod;
+    border-left: 25px solid cornflowerblue;
+    animation: lorem 4s linear infinite alternate;
+}
+@keyframes lorem{
+    from{
+        transform: scale(1) rotate(70deg);
+    }
+    to{
+        transform: translateX(300px);
+        background-color: yellow;
+    }
+}
