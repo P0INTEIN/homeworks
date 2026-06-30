@@ -10,8 +10,13 @@ body{
 .w-1340{
     width: 1340px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 nav{
+    width: 100%;
     padding: 36px;
     display: flex;
     justify-content: flex-end;
@@ -59,6 +64,8 @@ ul a{
 }
 .header-img{
     display: block;
+
+
 }
 .burger__above{
     width: 1340px;
@@ -111,4 +118,38 @@ ul a{
 
     /* DropShadow */
     box-shadow: 8px 8px 0 0 #000;
+}
+.img-two{
+    width: 100%;
+    padding: 64px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h3{
+    width: 895px;
+    color: #E9E3DC;
+    text-align: center;
+    font-family: "Bowlby One";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.896%; /* 71.328px */
+    text-transform: uppercase;
+    margin: 64px 0 33px 0;
+
+}
+.started{
+    width: 196px;
+    height: 60px;
+    background: #D1EF53;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "Bowlby One";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+    margin-bottom: 36px;
 }
