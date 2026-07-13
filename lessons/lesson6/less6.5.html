@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+  <style>
+    label{
+      display: block;
+      margin-top: 10px;
+    }
+    sup{
+      color: red;
+    }
+  </style>
+</head>
+<body>
+<form class="form-register">
+  <label for="name" >VRITE NAME</label>
+  <input type="text" name="name" id="name" placeholder="Anna" required><sup>*</sup>
+
+  <label for="email" >введіть свій email</label>
+  <input type="email" name="email" id="email" placeholder="form@gmail.com" required><sup>*</sup>
+
+  <label for="password" >введіть свій пароль</label>
+  <input type="password" name="password" id="password" placeholder="2323Ww" required><sup>*</sup>
+
+  <label for="age" >введіть свій вік</label>
+  <input type="number" name="age" id="age" min="18">
+
+  <label>стать</label>
+  <label><input type="radio" name="gender" value="male">man</label>
+  <label><input type="radio" name="gender" value="female">woman</label>
+
+  <label>
+    <input type="checkbox" name="newsletter"> subscribe
+  </label>
+
+
+
+</form>
+</body>
+</html>
