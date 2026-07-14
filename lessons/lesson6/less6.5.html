@@ -11,6 +11,10 @@
     sup{
       color: red;
     }
+    textarea{
+      resize: none;
+
+    }
   </style>
 </head>
 <body>
@@ -34,6 +38,37 @@
   <label>
     <input type="checkbox" name="newsletter"> subscribe
   </label>
+  <label for="lorem">країна</label>
+  <select id="lorem">
+    <option value="">оберіть країну</option>
+    <option value="ua">україна</option>
+    <option value="usa">сша</option>
+    <option value="ka">канада</option>
+    <option value="mor">мороко</option>
+  </select>
+
+  <label for="phone"></label>
+  <select id="phone">
+    <optgroup label="apple">
+      <option value="X">iphone X</option>
+      <option value="XR">iphone XR</option>
+      <option value="11">iphone 11</option>
+    </optgroup>
+    <optgroup label="honor">
+      <option value="X">iphone X</option>
+      <option value="XR">iphone XR</option>
+      <option value="11">iphone 11</option>
+    </optgroup>
+  </select>
+
+  <label for="comment"></label>
+  <textarea id="comment" rows="4" cols="50">
+  </textarea>
+
+  <div>
+    <input type="submit" value="надіслати">
+    <input type="reset" value="скинути">
+  </div>
 
 
 
